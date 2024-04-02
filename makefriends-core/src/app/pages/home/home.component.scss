@@ -1,14 +1,10 @@
-$purple-light: #9370db;
-$pink-light: #ffc0cb;
-$background-host: #ececec;
-$white: #ffff;
+@import "../../../assets/styles/colors.scss";
 
 .home {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: $background-host;
 
   &__card {
     width: 80%;
@@ -16,6 +12,7 @@ $white: #ffff;
     border-radius: 12px;
     background-color: $white;
     p {
+      font-size: 14px;
       margin: 14px;
     }
   }
@@ -27,6 +24,16 @@ $white: #ffff;
     img {
       width: 40px;
       height: 40px;
+    }
+  }
+
+  &__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 450px;
+      height: 450px;
     }
   }
 
