@@ -1,0 +1,42 @@
+$purple-light: #9370db;
+$pink-light: #ffc0cb;
+$background-host: #ececec;
+$white: #ffff;
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $background-host;
+
+  &__card {
+    width: 80%;
+    height: 80%;
+    border-radius: 12px;
+    background-color: $white;
+    p {
+      margin: 14px;
+    }
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  &__button-go-registry {
+    border-radius: 50px;
+    background-color: $purple-light;
+    padding: 10px 80px;
+    margin: 10px;
+    color: $white;
+    cursor: pointer;
+    border: none;
+  }
+}
